@@ -184,8 +184,7 @@ contract BACToken is ERC20Interface, Owned {
     // ------------------------------------------------------------------------
     // Don't accept ETH
     // ------------------------------------------------------------------------
-    function () external payable {
-        revert();
+    function() external payable{
     }
 
 
